@@ -28,3 +28,4 @@ jobs:
     - name: Test with pytest
       run: |
         python hello.py
+        streamlit run test1.py --server.port 80
